@@ -40,7 +40,9 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Cephie Studios' }],
 	creator: 'Cephie Studios',
 	publisher: 'Cephie Studios',
-	metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://cephie.app'),
+	metadataBase: new URL(
+		process.env.NEXT_PUBLIC_SITE_URL || 'https://cephie.app'
+	),
 	alternates: {
 		canonical: '/'
 	},
@@ -54,10 +56,11 @@ export const metadata: Metadata = {
 		siteName: 'Cephie Studios'
 	},
 	twitter: {
-		card: 'summary_large_image',
+		card: 'summary',
 		title: 'Cephie Studios',
 		description:
-			'We create applications and build thriving communities. Our flagship project PFControl powers ATC management for Project Flight.'
+			'We create applications and build thriving communities. Our flagship project PFControl powers ATC management for Project Flight.',
+		images: ['/assets/icons/cephie-clean.avif']
 	},
 	icons: {
 		icon: '/favicon.ico'

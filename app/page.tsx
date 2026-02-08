@@ -32,6 +32,33 @@ export default function Home() {
 			</section>
 
 			<section
+				id="dashboard"
+				className="flex items-center justify-center py-24 px-6 bg-white w-full"
+			>
+				<div className="max-w-6xl w-full">
+					<h2 className="text-3xl text-zinc-900 sm:text-4xl font-montserrat">
+						Manage the PFConnect Bot
+					</h2>
+					<p className="mt-6 text-lg leading-8 text-zinc-600 max-w-5xl">
+						Manage your virtual airline with ease using our
+						comprehensive dashboard. Track flights, manage your
+						staff and send welcome messages, all in one place. Join
+						hundreds of virtual airlines already using PFConnect to
+						streamline their operations and engage their community.
+					</p>
+					<div className="mt-10 flex flex-wrap gap-4">
+						<Button
+							variant="primary"
+							href="https://dash.cephie.app"
+							newTab={true}
+						>
+							Dashboard
+						</Button>
+					</div>
+				</div>
+			</section>
+
+			<section
 				id="team"
 				className="flex items-center justify-center py-24 px-6 bg-white w-full"
 			>

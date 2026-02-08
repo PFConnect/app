@@ -23,7 +23,7 @@ export const products: Product[] = [
 		fullDescription: 'PFControl is our flagship project, providing a comprehensive suite of tools for air traffic controllers in Project Flight. With over 7,500+ registered users, it features real-time flight tracking, integrated voice chat, and detailed user statistics.',
 		icon: FaBroadcastTower,
 		link: 'https://pfcontrol.com',
-		github: 'https://github.com/PFConnect/pfcontrol-2',
+		github: 'https://github.com/cephie-studios/pfcontrol-2',
 		status: 'Operational'
 	},
 	{
@@ -41,7 +41,7 @@ export const products: Product[] = [
 		description: 'Discord bot for virtual airline management.',
 		fullDescription: 'The PFConnect Bot was our first project, designed to help virtual airlines manage their operations through Discord. It offers features like flight logging, user role management and a ticketing system, making it an essential tool for virtual aviation communities.',
 		icon: FaGlobeAmericas,
-		link: 'https://cephie.app/discord',
+		link: 'https://dash.cephie.app/',
 		status: 'Operational'
 	},
 	{
@@ -50,7 +50,7 @@ export const products: Product[] = [
 		description: 'Dashboard for managing PFConnect Bot settings.',
 		fullDescription: 'The PFConnect Bot Dashboard is a web-based interface that allows administrators to manage their virtual airline\'s PFConnect Bot settings, view ticket transcript, and send automatic welcome messages to new users.',
 		icon: BsBoxes,
-		link: 'https://cephie.app/discord',
+		link: 'https://dash.cephie.app/',
 		status: 'Operational'
 	},
 	{
@@ -59,7 +59,7 @@ export const products: Product[] = [
 		description: 'Secure, robust API for integrating PFConnect data and features into your own apps and tools.',
 		fullDescription: 'A secure and centralized identity provider that allows users to access all Cephie Studios products with a single account, featuring OAuth2 support and multi-factor authentication.',
 		icon: MdAirplaneTicket,
-		link: 'https://pfconnect-api.cephie.app',
+		link: 'https://pfc-api.cephie.app',
 		status: 'Operational'
 	}
 ];

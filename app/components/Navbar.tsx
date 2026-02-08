@@ -75,6 +75,8 @@ export default function Navbar() {
 							</Button>
 							<Button
 								variant="secondary"
+								href="https://cephie.app/discord"
+								newTab={true}
 								className="px-4! py-2! rounded-xl! text-xs!"
 							>
 								Join Discord

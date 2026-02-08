@@ -55,6 +55,16 @@ export default function Footer() {
 									Apply
 								</Link>
 							</li>
+							<li>
+								<Link
+									href="https://dash.cephie.app"
+									rel="noopener noreferrer"
+									target="_blank"
+									className="text-zinc-600 hover:text-zinc-900 font-montserrat"
+								>
+									Dashboard
+								</Link>
+							</li>
 						</ul>
 					</div>
 

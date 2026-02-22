@@ -1,7 +1,7 @@
 'use client';
 
-import { Background } from '@cephie-studios/ui';
-import { Button } from '@cephie-studios/ui';
+import { Background } from 'cephie-ui';
+import { Button } from 'cephie-ui';
 import { products } from './data/products';
 
 export default function Home() {

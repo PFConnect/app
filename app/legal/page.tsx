@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Background } from '@cephie-studios/ui';
+import { Background } from 'cephie-ui';
 import {
 	MdDescription,
 	MdPrivacyTip,

@@ -1,6 +1,6 @@
 'use client';
 
-import { Background } from '@cephie-studios/ui';
+import { Background } from 'cephie-ui';
 
 export default function NotFound() {
 	return (

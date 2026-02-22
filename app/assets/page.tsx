@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '@cephie-studios/ui';
+import { Button } from 'cephie-ui';
 
 export default function AssetsPage() {
 	const [files, setFiles] = useState<string[]>([]);

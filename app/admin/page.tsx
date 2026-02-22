@@ -1,7 +1,7 @@
 import { auth, signIn } from '@/auth';
 import AdminPanel from './AdminPanel';
-import { Background } from '@cephie-studios/ui';
-import { Button } from '@cephie-studios/ui';
+import { Background } from 'cephie-ui';
+import { Button } from 'cephie-ui';
 import fs from 'fs';
 import path from 'path';
 

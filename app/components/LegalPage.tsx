@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { MdLink } from 'react-icons/md';
-import { Background } from '@cephie-studios/ui';
+import { Background } from 'cephie-ui';
 
 interface Subsection {
 	title: string;

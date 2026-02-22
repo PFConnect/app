@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { MdAdd, MdDelete, MdSave, MdLogout } from 'react-icons/md';
 import { signOut } from 'next-auth/react';
-import { Button } from '@cephie-studios/ui';
+import { Button } from 'cephie-ui';
 
 interface Subsection {
 	title: string;

@@ -44,7 +44,7 @@ export default function LegalSelectionPage() {
 			icon: <MdDescription className="w-8 h-8 text-blue-500" />
 		},
 		{
-			title: 'Cephie Snap',
+			title: 'Cephie Snap Terms',
 			description:
 				'Terms, privacy, and cookies for Cephie Snap image sharing.',
 			href: '/legal/snap',
